@@ -112,7 +112,7 @@ Each 3-byte group (24 bits) is divided into four 6-bit groups. Each 6-bit value 
 
 ---
 
-## Example Walkthrough
+## Example
 
 **Input Text:**
 
