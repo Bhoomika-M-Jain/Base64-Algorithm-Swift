@@ -5,16 +5,17 @@
 //  Created by Bhoomika m jain on 17/11/26.
 //
 
+
 import Foundation
 
-let encoder = Base64Encoder()
+let base64 = Base64Code()
 
-let encodedText = encoder.encode("Hello")
+let encodedText = base64.encode("Hello")
+
 print("Encoded text:", encodedText)
 
-let decoder = Base64Decoder()
+let decodedText = base64.decode(encodedText)
 
-let decodedText = decoder.decode(encodedText)
 print("Decoded text:", decodedText)
 
 do {
@@ -26,7 +27,7 @@ do {
     print("Original image loaded!")
     print("Original size:", imageData.count, "bytes")
 
-    let encodedImage = encoder.encodeImage(imageData)
+    let encodedImage = base64.encodeImage(imageData)
 
     print("Image encoded successfully!")
 
@@ -40,12 +41,11 @@ do {
 
     print("Base64 text saved at:", base64URL.path)
 
-    let decodedImageData = decoder.decodeImage(encodedImage)
+    let decodedImageData = base64.decodeImage(encodedImage)
 
     print("Image decoded successfully!")
 
-    let outputURL = URL(fileURLWithPath: "/Users/bhoomikamjain/myprojects/Base64-Algorithm-Swift/Base64-Algorithm-Swift/Base64-Algorithm-Swift/images/decodedImage.jpg"
-    )
+    let outputURL = URL(fileURLWithPath: "/Users/bhoomikamjain/myprojects/Base64-Algorithm-Swift/Base64-Algorithm-Swift/Base64-Algorithm-Swift/images/decodedImage.jpg")
 
     try decodedImageData.write(to: outputURL)
 
