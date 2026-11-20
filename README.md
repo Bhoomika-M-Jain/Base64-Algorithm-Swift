@@ -6,7 +6,7 @@ It demonstrates the internal working of the Base64 algorithm using byte manipula
 
 ## Features
 
-### Supports:
+## Supports:
 
 - Encoding and decoding of text.
 - Encoding and decoding of image data.
