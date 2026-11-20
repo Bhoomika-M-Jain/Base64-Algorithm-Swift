@@ -4,7 +4,7 @@ This project implements Base64 Encoding and Decoding in Swift from scratch to co
 
 It demonstrates the internal working of the Base64 algorithm using byte manipulation, bitwise operations, and a character lookup table without relying on Swift's built-in Base64 encoding and decoding methods.
 
-# <u>Features</u>
+## Features
 
 ### Supports:
 
