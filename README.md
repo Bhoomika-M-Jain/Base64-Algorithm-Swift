@@ -32,7 +32,7 @@ It demonstrates the internal working of the Base64 algorithm using byte manipula
 
 ## Base64 Encoding Format
 
-Base64 uses a set of **64 characters** to represent binary data.
+Base64 uses a set of 64 characters to represent binary data.
 
 | Character Set | Description             |
 | ------------- | ----------------------- |
@@ -42,7 +42,7 @@ Base64 uses a set of **64 characters** to represent binary data.
 | `+` and `/`   | 2 additional characters |
 | `=`           | Padding character       |
 
-**Total: 64 encoding characters + padding character.**
+Total: 64 encoding characters + padding character.
 
 ### How Base64 Processes Data
 
