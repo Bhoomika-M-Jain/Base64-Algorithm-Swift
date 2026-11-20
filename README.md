@@ -195,17 +195,6 @@ The decoded image can be compared with the original image to verify that the bin
 
 ---
 
-## Learning Outcomes
-
-Through this project, I explored:
-
-- How Base64 encoding and decoding work internally.
-- How bytes are grouped and converted into 6-bit indexes.
-- How bitwise operators manipulate binary data.
-- How padding works in Base64 encoding.
-- How Swift handles text and binary data.
-- How to encode and reconstruct image files using Base64.
-
 ## Author
 
 **Bhoomika M Jain**
