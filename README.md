@@ -1,4 +1,4 @@
-**Base64 Algorithm in Swift**
+### Base64 Algorithm in Swift
 
 This project implements Base64 Encoding and Decoding in Swift from scratch to convert text and images, into Base64 format and reconstruct the original data.
 
